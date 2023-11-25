@@ -1,5 +1,5 @@
-import React, { createContext, useState } from 'react'
-import  Hoc  from './theam-Togler/Hoc'
+import React from 'react'
+// import  Hoc  from './theam-Togler/Hoc'
 // import { MainTheamButton } from './theam-Togler/MainTheamButton'
 // import { Page } from './theam-Togler/Page'
 
@@ -27,7 +27,7 @@ export const App = () => {
 
   
 
-  const [theam, setTheam] = useState('light')
+  // const [theam, setTheam] = useState('light')
   return (
     <>
 

@@ -6,7 +6,6 @@
     
     header>div {
         display: flex;
-        justify-content: start; 
     }
     header>div>p{
         padding: 1rem ;

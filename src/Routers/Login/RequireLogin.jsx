@@ -1,12 +1,11 @@
 import React, { useContext } from 'react'
-import { Navigate, useLocation, useNavigate } from 'react-router-dom';
+import { Navigate, useLocation } from 'react-router-dom';
 import { userinfo } from '../authContext/AuthContext';
 
 const RequireLogin = ({children}) => {
     const location = useLocation();
 
     console.log(location)
-    const navigate =useNavigate();
     const loggedinuser = useContext(userinfo);
 
     // console.log('loggedinuser.first.userName',loggedinuser.first.userName)
