@@ -1,0 +1,56 @@
+@media(min-width:1000px){
+    header {
+        background-color: rgb(68, 68, 68);
+        
+    }
+    
+    header>div {
+        display: flex;
+        justify-content: start; 
+    }
+    header>div>p{
+        padding: 1rem ;
+    }
+    a{
+        text-decoration: none;
+        color: gray;
+        font-size: 1.3rem;
+    }
+    .active{
+        color: white;
+        font-weight: bold;
+    }
+    
+    h1{
+        text-align: center;
+    }
+}
+
+@media(max-width:1000px){
+    header {
+        background-color: rgb(68, 68, 68);
+        
+    }
+    
+    header>div {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    header>div>p{
+        padding: 1rem 0.6rem 1rem 0.6rem ;
+    }
+    a{
+        text-decoration: none;
+        color: gray;
+        font-size: 1.1rem;
+    }
+    .active{
+        color: white;
+        font-weight: bold;
+    }
+    
+    h1{
+        text-align: center;
+    }
+}

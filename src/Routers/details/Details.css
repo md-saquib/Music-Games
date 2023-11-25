@@ -1,0 +1,49 @@
+.crousel-img{
+    height:30rem;
+    width:50%;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid black;
+    margin-top: 2rem;
+}
+
+.img{
+    position:absolute;
+    /* height: 100%; */
+    width: 100%;
+
+}
+
+.forword{
+    position: absolute;
+    font: 3em sans-serif;
+    top: 9rem;
+    cursor: pointer;
+}
+
+.backword{
+    position: absolute;
+    font: 3em sans-serif;
+    right: 0;
+    top: 9rem;
+    cursor: pointer;
+}
+.addtocart{
+    position: absolute;
+    bottom: 1rem;
+    width: 40%;
+    right: 2rem;
+    font-size: 1.4rem; 
+    font-weight: 500;
+}
+
+.buynow{
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    width: 40%;
+    font-size: 1.4rem; 
+    font-weight: 500;
+
+
+}
